@@ -1,0 +1,37 @@
+
+button
+{
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px;
+    border: none;
+    border-radius: 11px;
+    background-color: #018673;
+    color: #fff;
+}
+ button:hover
+{
+    transition: 0.6s;
+    background-color: #069e87;
+}
+.rounded-3 {
+    border-radius: 0.3rem!important;
+    margin-bottom: 10px;
+}
+@media  screen and (max-width: 900px){
+    .service-home img {
+        max-width: 670px;
+    }
+}
+@media  screen and (max-width: 1368px)  {
+    .service-home img {
+        max-width: 402px;
+    }
+}
+@media screen and (max-width: 1180px )  {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: auto;
+    }
+}
